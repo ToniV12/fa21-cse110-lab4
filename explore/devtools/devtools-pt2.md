@@ -1,0 +1,2 @@
+Question 1) the bug is that the sum is being calculated as a sum of two strings so they end up concatenating
+Question 2) When calculating result we can simply cast num1 and num2 as Numbers and that should fix the type conversion, but we could also cast result as a number to bulletproof the conversion.
